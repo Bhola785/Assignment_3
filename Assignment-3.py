@@ -7,7 +7,7 @@ Problem Statement: Write a Python program that:
 2.   Returns the calculated factorial.
 3.   Calls the function with a sample number and prints the output.
 '''
-'''
+
 n=int(input("Enter a number -"))
 def factorial(n):
     if n==0:
@@ -16,7 +16,7 @@ def factorial(n):
         return n * factorial(n - 1)
 
 print("factorial of ",n, " is",factorial(n))
-'''
+
 '''
 Task 2: Using the Math Module for Calculations
  
@@ -29,10 +29,9 @@ o   Sine of the number (in radians)
 3.   Displays the calculated results.
 
 '''
-'''
+
 import math
 n=int(input("Enter a number -"))
 print("square root of ",n, " is",math.sqrt(n))
 print("natural log of ",n, " is",math.log(n,2))
 print("Sine of ",n, " is",math.sin(n))
-'''
